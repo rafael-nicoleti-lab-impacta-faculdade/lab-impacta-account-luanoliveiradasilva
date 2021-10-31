@@ -5,17 +5,17 @@ import javax.persistence.*
 
 @Data
 @Entity
-class Person (
+class Person () {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: Long,
+    var id: Long = 0
 
     @Column(name = "name")
-    var name: String,
+    var name: String = ""
 
     @Column(name = "document")
-    var document: String
-) {
-    constructor() : this(0,"", "") { }
+    var document: String = ""
+
 
 }
