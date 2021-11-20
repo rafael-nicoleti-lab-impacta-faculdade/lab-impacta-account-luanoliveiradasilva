@@ -1,4 +1,4 @@
-package br.com.lab.impacta.account.api;
+package br.com.lab.impacta.account.controller;
 
 import br.com.lab.impacta.account.application.AccountApplication;
 import br.com.lab.impacta.account.application.dto.response.AccountBalanceResponse;
